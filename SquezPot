@@ -1,0 +1,30 @@
+#include"pch.h"
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+
+{
+	
+	setlocale(LC_ALL, ".1251");
+	system("color 4");
+	 
+	
+	
+	printf("\n\n\tПечатаем таблицу квадратов целых положительных нечетных чисел\n");
+
+	int  k, p;
+	for (int i = 0; i < 10; i++)
+	{
+		
+		k = i + 1; p = k * k;
+		if (k % 2 != 0) cout  << "\n\t " <<"число " << k <<  " в квадрате равно "  << p << endl;
+	}
+		cout << endl << endl << "\t";
+		system("pause");
+
+		return 0;
+	
+}
